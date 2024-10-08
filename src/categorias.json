@@ -1,0 +1,15 @@
+[
+    {
+      "id_categoria": 1,
+      "nombre_categoria": "Electrónica"
+    },
+    {
+      "id_categoria": 2,
+      "nombre_categoria": "Libros"
+    },
+    {
+      "id_categoria": 3,
+      "nombre_categoria": "Ropa"
+    }
+  ]
+  

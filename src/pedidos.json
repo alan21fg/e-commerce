@@ -1,0 +1,21 @@
+[
+    {
+      "id_pedido": 1,
+      "id_usuario": 1,
+      "fecha_pedido": "2024-03-04",
+      "estado_pedido": "enviado"
+    },
+    {
+      "id_pedido": 2,
+      "id_usuario": 2,
+      "fecha_pedido": "2024-03-05",
+      "estado_pedido": "pendiente"
+    },
+    {
+      "id_pedido": 3,
+      "id_usuario": 3,
+      "fecha_pedido": "2024-03-06",
+      "estado_pedido": "completado"
+    }
+  ]
+  

@@ -1,0 +1,15 @@
+[
+    {
+      "id_metodo_pago": 1,
+      "nombre_metodo": "Tarjeta de Crédito"
+    },
+    {
+      "id_metodo_pago": 2,
+      "nombre_metodo": "PayPal"
+    },
+    {
+      "id_metodo_pago": 3,
+      "nombre_metodo": "Transferencia Bancaria"
+    }
+  ]
+  

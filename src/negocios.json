@@ -1,0 +1,39 @@
+[
+    {
+      "id_negocio": 1,
+      "id_usuario": 2,
+      "nombre_negocio": "Tienda de Electrónica",
+      "descripcion": "Venta de gadgets y dispositivos electrónicos.",
+      "direccion": "123 Calle Falsa",
+      "telefono_contacto": "555-1234",
+      "sitio_web": "https://electronica.com",
+      "calificacion": 4.5,
+      "fecha_creacion": "2024-02-20",
+      "ultima_actualizacion": "2024-03-05"
+    },
+    {
+      "id_negocio": 2,
+      "id_usuario": 2,
+      "nombre_negocio": "Librería Online",
+      "descripcion": "Venta de libros de diversos géneros.",
+      "direccion": "456 Avenida Principal",
+      "telefono_contacto": "555-5678",
+      "sitio_web": "https://libreriaonline.com",
+      "calificacion": 4.7,
+      "fecha_creacion": "2024-01-15",
+      "ultima_actualizacion": "2024-02-01"
+    },
+    {
+      "id_negocio": 3,
+      "id_usuario": 3,
+      "nombre_negocio": "Ropa Moderna",
+      "descripcion": "Venta de ropa de moda para todas las edades.",
+      "direccion": "789 Calle Nueva",
+      "telefono_contacto": "555-9101",
+      "sitio_web": "https://ropamoderna.com",
+      "calificacion": 4.2,
+      "fecha_creacion": "2024-03-01",
+      "ultima_actualizacion": "2024-03-10"
+    }
+  ]
+  

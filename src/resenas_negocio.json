@@ -1,0 +1,27 @@
+[
+    {
+      "id_resena_negocio": 1,
+      "id_negocio": 1,
+      "id_usuario": 1,
+      "calificacion": 5,
+      "comentario": "Excelente servicio y productos de calidad.",
+      "fecha_resena": "2024-03-01"
+    },
+    {
+      "id_resena_negocio": 2,
+      "id_negocio": 2,
+      "id_usuario": 1,
+      "calificacion": 4,
+      "comentario": "Buena variedad de libros, pero los envíos son lentos.",
+      "fecha_resena": "2024-02-20"
+    },
+    {
+      "id_resena_negocio": 3,
+      "id_negocio": 3,
+      "id_usuario": 3,
+      "calificacion": 3,
+      "comentario": "La calidad de la ropa es aceptable, pero los precios son altos.",
+      "fecha_resena": "2024-03-05"
+    }
+  ]
+  

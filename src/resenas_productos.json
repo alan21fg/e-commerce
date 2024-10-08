@@ -1,0 +1,27 @@
+[
+    {
+      "id_resena_producto": 1,
+      "id_producto": 1,
+      "id_usuario": 1,
+      "calificacion": 4,
+      "comentario": "Buen teléfono, aunque podría mejorar la batería.",
+      "fecha_resena": "2024-03-03"
+    },
+    {
+      "id_resena_producto": 2,
+      "id_producto": 2,
+      "id_usuario": 2,
+      "calificacion": 5,
+      "comentario": "Libro muy útil para aprender a programar.",
+      "fecha_resena": "2024-03-02"
+    },
+    {
+      "id_resena_producto": 3,
+      "id_producto": 3,
+      "id_usuario": 3,
+      "calificacion": 3,
+      "comentario": "La camisa es cómoda, pero el tallaje no es preciso.",
+      "fecha_resena": "2024-03-06"
+    }
+  ]
+  

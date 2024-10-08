@@ -1,0 +1,39 @@
+[
+    {
+      "id_producto": 1,
+      "id_negocio": 1,
+      "id_categoria": 1,
+      "nombre_producto": "Smartphone XYZ",
+      "descripcion_producto": "Un teléfono inteligente con características avanzadas.",
+      "precio": 499.99,
+      "link_compra": "https://electronica.com/smartphone-xyz",
+      "contador_deseados": 10,
+      "fecha_creacion": "2024-02-25",
+      "ultima_actualizacion": "2024-03-01"
+    },
+    {
+      "id_producto": 2,
+      "id_negocio": 2,
+      "id_categoria": 2,
+      "nombre_producto": "Libro: Aprendiendo Python",
+      "descripcion_producto": "Guía completa para aprender a programar en Python.",
+      "precio": 29.99,
+      "link_compra": "https://libreriaonline.com/python",
+      "contador_deseados": 5,
+      "fecha_creacion": "2024-01-20",
+      "ultima_actualizacion": "2024-02-05"
+    },
+    {
+      "id_producto": 3,
+      "id_negocio": 3,
+      "id_categoria": 3,
+      "nombre_producto": "Camisa de Algodón",
+      "descripcion_producto": "Camisa casual de algodón para uso diario.",
+      "precio": 19.99,
+      "link_compra": "https://ropamoderna.com/camisa",
+      "contador_deseados": 7,
+      "fecha_creacion": "2024-03-02",
+      "ultima_actualizacion": "2024-03-05"
+    }
+  ]
+  

@@ -1,0 +1,30 @@
+[
+    {
+      "id_usuario": 1,
+      "nombre_usuario": "jdoe",
+      "email": "jdoe@example.com",
+      "contrasena": "hashed_password_123",
+      "rol": "cliente",
+      "fecha_registro": "2024-01-01",
+      "ultima_actualizacion": "2024-02-01"
+    },
+    {
+      "id_usuario": 2,
+      "nombre_usuario": "asmith",
+      "email": "asmith@example.com",
+      "contrasena": "hashed_password_456",
+      "rol": "vendedor",
+      "fecha_registro": "2024-02-15",
+      "ultima_actualizacion": "2024-03-01"
+    },
+    {
+      "id_usuario": 3,
+      "nombre_usuario": "mjane",
+      "email": "mjane@example.com",
+      "contrasena": "hashed_password_789",
+      "rol": "cliente",
+      "fecha_registro": "2024-03-01",
+      "ultima_actualizacion": "2024-03-05"
+    }
+  ]
+  
