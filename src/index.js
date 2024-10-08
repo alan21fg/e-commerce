@@ -17,7 +17,7 @@ import categoriasRoutes from './routes/categorias.js';
 const app = express();
 
 // Configuraciones
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4100);
 app.set('json spaces', 2);
 
 // Middlewares

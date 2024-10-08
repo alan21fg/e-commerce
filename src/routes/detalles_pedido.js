@@ -7,7 +7,7 @@ const router = Router();
 
 // Leer el archivo JSON manualmente
 const detallesPedidosPath = join(process.cwd(), 'src', 'detalles_pedido.json');
-const detallesPedidos = JSON.parse(readFileSync(detallesPedidosPath, 'utf-8'));
+let detallesPedidos = JSON.parse(readFileSync(detallesPedidosPath, 'utf-8')); // Cambiar a let
 
 // Obtener todos los detalles de pedidos
 router.get('/', (req, res) => {
@@ -44,8 +44,8 @@ router.put('/:id', (req, res) => {
 
 // Eliminar un detalle de pedido
 router.delete('/:id', (req, res) => {
-    const { id } = req.params;
-    detallesPedidos = detallesPedidos.filter(d => d.id_detalle != id);
+    let id = parseInt(req.params.id);
+    detallesPedidos = detallesPedidos.filter(d => d.id_detalle != id); // Reasignación permitida con let
     res.json(detallesPedidos);
 });
 

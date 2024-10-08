@@ -7,15 +7,15 @@ const router = Router();
 
 // Leer el archivo JSON manualmente
 const usuariosPath = join(process.cwd(), 'src', 'usuarios.json');
-const usuarios = JSON.parse(readFileSync(usuariosPath, 'utf-8'));
+let usuarios = JSON.parse(readFileSync(usuariosPath, 'utf-8')); // Cambiado a let
 
 router.get('/', (req, res) => {
     res.json(usuarios);
 });
 
 router.post('/', (req, res) => {
-    const { nombre_usuario, email, contraseña } = req.body;
-    if (nombre_usuario && email && contraseña) {
+    const { nombre_usuario, email, contrasena } = req.body;
+    if (nombre_usuario && email && contrasena) {
         const nuevoUsuario = { id_usuario: usuarios.length + 1, ...req.body };
         usuarios.push(nuevoUsuario);
         res.json(usuarios);
@@ -40,6 +40,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
     const { id } = req.params;
+    // Filtrar usuarios y volver a asignar a la variable usuarios
     usuarios = usuarios.filter(u => u.id_usuario != id);
     res.json(usuarios);
 });

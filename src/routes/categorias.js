@@ -7,7 +7,7 @@ const router = Router();
 
 // Leer el archivo JSON manualmente
 const categoriasPath = join(process.cwd(), 'src', 'categorias.json');
-const categorias = JSON.parse(readFileSync(categoriasPath, 'utf-8'));
+let categorias = JSON.parse(readFileSync(categoriasPath, 'utf-8')); // Cambiado a let
 
 // Obtener todas las categorías
 router.get('/', (req, res) => {
@@ -42,6 +42,7 @@ router.put('/:id', (req, res) => {
 // Eliminar una categoría
 router.delete('/:id', (req, res) => {
     const { id } = req.params;
+    // Filtrar categorías y volver a asignar a la variable categorias
     categorias = categorias.filter(c => c.id_categoria != id);
     res.json(categorias);
 });
